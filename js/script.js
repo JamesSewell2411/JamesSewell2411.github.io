@@ -1,3 +1,5 @@
+//DOCTYPE Javascript
+
 var canvas;
 var my_context;
 var check = false;
