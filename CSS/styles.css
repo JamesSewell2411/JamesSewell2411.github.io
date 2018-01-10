@@ -3,6 +3,40 @@
 	Mobile up. the default is the really small screen
 
 */
+/*the defaults are set for all screen sizes and are only changed if required */
+.button
+{
+	border: none;
+	padding: 0px 0px;
+	background-color: red;
+	cursor:pointer;
+}
+#Custom
+{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	font-family: impact, carcoal, sans-serif;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+	border: none;
+	font-Size: 17px;
+}
+.slider {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 200px;
+	height: 25x;
+	background: #d3d3d3;
+	outline: none;
+	
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -11,9 +45,49 @@ ul {
     background-color: #333;
 	font-family: impact, carcoal, sans-serif;
 }
-/*
-
+/*any input fields within a list tag */
+li input{
+	list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+	font-family: impact, carcoal, sans-serif;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	border: none;
+	font-Size: 17px;
+}
+/*buttons in a list tag*/
+li button{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	font-family: impact, carcoal, sans-serif;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	border: none;
+	font-Size: 17px;
+}
+/*buttons in a list tag when the mouse is hovered over them
+Just sets the text color to yellow
+used in the navigation bar
 */
+li button:hover:not(:active) {
+	color:#f4c842
+}
+:active {
+	/*Buttons in a list when the mouse is clicked on them*/
+    color: #4CAF50;
+}
+/*List links, used for the navigation bar*/
 li a {
 	
     display: block;
@@ -29,19 +103,16 @@ li a:hover:not(:active) {
 :active {
     color: #4CAF50;
 }
-.center{
-	/*
-	margin: auto;
-	padding:10px;
-	*/
-}
 body
 {
+	/*default color on mobile phones
+	overwritten by custom background color*/
 	background-color:red;
 }
 
 canvas
 {
+	/*Canvas defaults*/
 	border:solid;
 	border-color:black;
 	background-color:white;
@@ -52,7 +123,6 @@ Not currently working right
 */
 @media screen and (min-width: 400px) {
     body {
-
         background-color: yellow;
     }
 	li {
@@ -64,7 +134,9 @@ Not currently working right
 		margin:auto;
 		padding:5px;
 	}
-	
+	.button {
+		background-color: black;
+	}
 	canvas{
 		
 	}
@@ -85,6 +157,9 @@ For desktops and anything bigger than a tablet
 		border-color:black;
 		background-color:white;
 		margin:auto;
+	}
+	.button{
+		background-color: black;
 	}
 	.center{
 		margin:auto;
