@@ -1,5 +1,6 @@
 /*
 	Mobile up. the default is the really small screen
+
 */
 ul {
     list-style-type: none;
@@ -46,6 +47,7 @@ canvas
 }
 /*
 For tablets, or anything bigger than a standard mobile
+Not currently working right
 */
 @media screen and (min-width: 400px) {
     body {
