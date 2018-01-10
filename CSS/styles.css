@@ -1,7 +1,11 @@
-/*
-	Mobile up. the default is the really small screen
 
-*/
+/*
+CSS for Web authoring project,
+linked to
+index.html
+video.html
+report.html
+Mobile up. the default is the really small screem*/
 /*the defaults are set for all screen sizes and are only changed if required */
 .button
 {
@@ -9,6 +13,13 @@
 	padding: 0px 0px;
 	background-color: red;
 	cursor:pointer;
+}
+h1
+{
+	font-family: impact, carcoal, sans-serif;
+	color: black;
+	text-align:Center;
+	text-decoration: underline; 
 }
 #Custom
 {
@@ -25,15 +36,6 @@
     text-decoration: none;
 	border: none;
 	font-Size: 17px;
-}
-.slider {
-	-webkit-appearance: none;
-	appearance: none;
-	width: 200px;
-	height: 25x;
-	background: #d3d3d3;
-	outline: none;
-	
 }
 
 ul {
