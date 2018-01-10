@@ -1,0 +1,91 @@
+/*
+	Mobile up. the default is the really small screen
+*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	font-family: impact, carcoal, sans-serif;
+}
+/*
+
+*/
+li a {
+	
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(:active) {
+    color:#f4c842;
+}
+:active {
+    color: #4CAF50;
+}
+.center{
+	/*
+	margin: auto;
+	padding:10px;
+	*/
+}
+body
+{
+	background-color:red;
+}
+
+canvas
+{
+	border:solid;
+	border-color:black;
+	background-color:white;
+}
+/*
+For tablets, or anything bigger than a standard mobile
+*/
+@media screen and (min-width: 400px) {
+    body {
+
+        background-color: yellow;
+    }
+	li {
+		float: left;
+		width: 120px;
+	}
+	
+	.center {
+		margin:auto;
+		padding:5px;
+	}
+	
+	canvas{
+		
+	}
+}
+/*
+For desktops and anything bigger than a tablet
+*/
+@media screen and (min-width: 800px){
+	body{
+		background-color: lightgreen;
+	}
+	li {
+		float: left;
+		width: 120px;
+	}
+	canvas{
+		border:solid;
+		border-color:black;
+		background-color:white;
+		margin:auto;
+	}
+	.center{
+		margin:auto;
+		padding:10px;
+	}
+}
+
