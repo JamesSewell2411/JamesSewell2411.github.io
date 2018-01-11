@@ -17,9 +17,32 @@ Mobile up. the default is the really small screem*/
 h1
 {
 	font-family: impact, carcoal, sans-serif;
-	color: black;
+	color: white;
+	background-color:#3f3f3f;
 	text-align:Center;
-	text-decoration: underline; 
+	text-decoration: underline;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+p{
+	text-align:center;
+	font-size: 18px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+b{
+	font-size: 22px;
+	
+}
+.Index_val{
+	text-align:center;
+	height:300px;
+	width:600px;
+}
+.Css_val{
+	text-align:center;
+	height:150px;
+	width:600px;
 }
 #Custom
 {
@@ -123,7 +146,11 @@ For tablets, or anything bigger than a standard mobile
 Not currently working right
 */
 @media screen and (min-width: 400px) {
-    body {
+    p{
+		margin-left:50px;
+		margin-right:50px;
+	}
+	body {
         background-color: yellow;
     }
 	li {
@@ -146,6 +173,10 @@ Not currently working right
 For desktops and anything bigger than a tablet
 */
 @media screen and (min-width: 800px){
+	p{
+		margin-left: 100px;
+		margin-right: 100px;
+	}
 	body{
 		background-color: lightgreen;
 	}
