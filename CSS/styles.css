@@ -41,6 +41,21 @@ b{
 }
 .Css_val{
 	text-align:center;
+	height:120px;
+	width:600px;
+}
+.validation_val{
+	text-align:center;
+	height:150px;
+	width:600px;
+}
+.video_val{
+	text-align:center;
+	height:150px;
+	width:600px;
+}
+.report_val{
+	text-align:center;
 	height:150px;
 	width:600px;
 }
