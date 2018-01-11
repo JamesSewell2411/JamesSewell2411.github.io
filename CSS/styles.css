@@ -7,6 +7,11 @@ video.html
 report.html
 Mobile up. the default is the really small screem*/
 /*the defaults are set for all screen sizes and are only changed if required */
+.video{
+	width:90vw;
+	height:90vh;
+	text-align:center;
+}
 .button
 {
 	border: none;
